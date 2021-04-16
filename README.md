@@ -15,7 +15,7 @@ Alat ini menggunakan algoritma yang sangat mudah untuk di pelajari, bahkan kalan
 
 ## Contoh
 ```python
-from dash.encrypt import Encrypt
+from dashcrypt.encrypt import Encrypt
 
 s = "Hello Indonesia".encode()
 
@@ -24,6 +24,8 @@ e.setMode(False)
 result = e.crypt(mode=0)
 print(result)
 ```
+
+Lihat lain nya di [Sample](https://github.com/billalxcode/dashcrypt/tree/master/sample)
 
 ## Fungsi
 ### Encrypt
